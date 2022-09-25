@@ -1,0 +1,108 @@
+.page-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.api label {
+  color: rgb(51, 51, 51);
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 50%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+   border-collapse: collapse;
+   width: 800px;
+   padding: 5px;
+   border-top: 1px solid rgb(128, 128, 128);
+  }
+
+  .cold {
+    background-color: rgb(217, 237, 247);
+    text-align: left;
+
+  }
+
+  .neutral {
+    background-color: rgb(245, 245, 245);
+    text-align: left;
+  }
+
+  .hot {
+    background-color: rgb(242, 222, 222);
+    text-align: left;
+  }
+
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+  
+.gameboard {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.square {
+    width: 4%;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+.square:hover {
+  color: rgb(88,88,88);
+}
+
+.events {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 15px;
+  width: 500px;
+}
+
+.page {
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+
+
+
